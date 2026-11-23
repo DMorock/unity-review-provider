@@ -27,7 +27,7 @@ platform-specific APIs.
 | Provider | Target | Scripting define |
 |---|---|---|
 | `ReviewProviderGooglePlay` | Google Play In-App Review API (Google Play Billing plugin) | `GOOGLE_PLAY` |
-| `ReviewProviderYG2` | [PluginYourGames (YG2)](https://github.com/YourGamesInc/UnityGamesSDK) for web games | `PLUGIN_YG_2` |
+| `ReviewProviderYG2` | PluginYourGames (YG2) for web games | `PLUGIN_YG_2` |
 | `ReviewProviderDummy` | Editor / unsupported platforms | fallback (no define needed) |
 
 `ControllerReview.CreateProvider()` picks the provider at compile time using
