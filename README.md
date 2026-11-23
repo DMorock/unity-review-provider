@@ -102,10 +102,9 @@ even whether the dialog was shown. In the Google Play provider,
 `onComplete(false)` means an API or initialization error. Keep this in mind
 when interpreting the result.
 
-The default 8-second timeout is tuned for this limitation: if the platform
+The default 60-second timeout is tuned for this limitation: if the platform
 stays silent (a realistic scenario with Google Play), the request is treated
-as failed after the timeout and later responses are ignored. You can pass a
-larger `timeoutSeconds` value if a longer wait suits your UX better.
+as failed after the timeout and later responses are ignored. You can pass your `timeoutSeconds` value if it suits your UX better.
 
 ## Requirements
 
